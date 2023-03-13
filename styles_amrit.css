@@ -47,9 +47,10 @@ a {
 
 .grid-container {
     display: grid;
-    grid-template-columns: max-content;
+    grid-template-columns: 1fr;
     background-color: #2196F3;
-
+    align-items: center;
+    justify-items: center;
     border-radius: 20px;
     
 
