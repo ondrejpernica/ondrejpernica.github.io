@@ -4,30 +4,11 @@ body {
 
 .rozcestnik {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .jidelnicek {
     display: grid;
-}
-
-.jidelnicek-den {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-auto-flow ;
-    background-color: white;
-}
-
-.jidelnicek-polevka {
-    grid-column-start: 2;
-    grid-column-end: 2;  
-    background-color: red;  
-}
-
-.jidelnicek-hlavni {
-    grid-column-start: 3;
-    grid-column-end: 3;
-    background-color: blue;
 }
 
 h1 {
@@ -47,11 +28,12 @@ a {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 500px;
     background-color: #2196F3;
-    align-items: center;
-    justify-items: center;
     border-radius: 20px;
+    width: 500px;
+    margin: 0 0 0 35%;
+    padding: 5px;
     
 
     
@@ -60,6 +42,7 @@ a {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 1em;
+    padding: 5px;
 
 
   }
