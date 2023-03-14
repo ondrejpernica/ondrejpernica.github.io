@@ -1,14 +1,32 @@
 body {
     background-color: #f5b60a;
+    margin: 0;
 }
 
 .rozcestnik {
+    background-color: rgb(20, 151, 15);
+    border-bottom: 4px white solid;
     text-align: center;
-    margin: 20px;
+    width: 100%;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+
 }
 
 .jidelnicek {
     display: grid;
+}
+
+.kontakt {
+    background-color: white;
+    border: solid black 0.5px;
+    border-radius: 50px 0 50px 0;
+    max-width: max-content;
+    min-width: 0%;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    word-wrap: break-word;
 }
 
 h1 {
@@ -28,23 +46,24 @@ a {
 
 button {
     border-radius: 10px;
+    margin: auto;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: auto;
-    background-color: black;
     max-width: max-content;
     min-width: 0%;
     margin: 0 auto;
+    padding: 0 5% 5% 5%;
+
 
   }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    .grid-item {
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.8);
     width: auto;
     font-size: 1em;
-    padding: 5px; 
+    padding: 5px 20px 5px 5px; 
     word-wrap: break-word;
-
   }
